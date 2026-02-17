@@ -1,1 +1,74 @@
 # Graminseva
+<!DOCTYPE html>
+<html>
+<head>
+<title>EMF Global Technology & Research</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {font-family: Arial; margin:0; background:#f4f4f4;}
+header {background:#003366; color:white; padding:20px; text-align:center;}
+nav {background:#005599; padding:10px; text-align:center;}
+nav a {color:white; margin:10px; text-decoration:none; font-weight:bold;}
+section {padding:30px; margin:20px; background:white; border-radius:8px;}
+button {background:#003366; color:white; padding:10px 20px; border:none; border-radius:5px;}
+footer {background:#003366; color:white; text-align:center; padding:15px;}
+input, textarea {width:100%; padding:8px; margin:5px 0;}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>EMF Global Technology & Research</h1>
+<p>Integrated Rural Development & Smart Village Platform</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#finance">Financial Model</a>
+<a href="#membership">Membership</a>
+<a href="#booking">Service Booking</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+<h2>About Us</h2>
+<p>Grameena Seva 360 Model for Smart Village Development.</p>
+<p>Drone + Solar + Health + Women Empowerment + Startup Support</p>
+</section>
+
+<section id="services">
+<h2>Our Services</h2>
+<ul>
+<li>Agriculture Drone Spraying</li>
+<li>Solar Installation & Repair</li>
+<li>Village Manufacturing Support</li>
+<li>Health & Ayurveda Center</li>
+<li>Women Skill Development</li>
+<li>Finance & Startup Support</li>
+</ul>
+</section>
+
+<section id="finance">
+<h2>Financial Model</h2>
+<p>Per Village Monthly Revenue: ₹1,97,000</p>
+<p>Estimated Net Profit: ₹97,000</p>
+<p>5-Year Expansion Plan: Andhra → India → Global</p>
+</section>
+
+<section id="membership">
+<h2>₹100 Annual Membership Registration</h2>
+<form onsubmit="alert('Registration Submitted Successfully'); return false;">
+<input type="text" placeholder="Full Name" required>
+<input type="text" placeholder="Village Name" required>
+<input type="tel" placeholder="Mobile Number" required>
+<button type="submit">Register</button>
+</form>
+</section>
+
+<section id="booking">
+<h2>Service Booking</h2>
+<form onsubmit="alert('Service Request Submitted'); return false;">
+<input type="text" placeholder="Name" required>
+<input type="text" placeholder="Service Required" required>
